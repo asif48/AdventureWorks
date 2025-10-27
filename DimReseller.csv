@@ -1,0 +1,702 @@
+ResellerKey,Resellername,ProductLine,GeographyKey
+1,A Bike Store,Road,637
+2,Progressive Sports,Mountain,635
+3,Advanced Bike Components,Road,584
+4,Modular Cycle Systems,Road,572
+5,Metropolitan Sports Supply,Road,322
+6,Aerobic Exercise Company,Road,303
+7,Associated Bikes,Mountain,599
+8,Exemplary Cycles,Touring,409
+9,Tandem Bicycle Store,Mountain,568
+10,Rural Cycle Emporium,Mountain,44
+11,Sharp Bikes,Mountain,96
+12,Bikes and Motorbikes,Road,96
+13,Country Parts Shop,Road,211
+14,Bicycle Warehouse Inc.,Mountain,167
+15,Budget Toy Store,Mountain,6
+16,Bulk Discount Store,Road,247
+17,Trusted Catalog Store,Mountain,605
+18,Catalog Store,Mountain,474
+19,Center Cycle Shop,Road,610
+20,Central Discount Store,Mountain,622
+21,Chic Department Stores,Mountain,584
+22,Travel Systems,Road,561
+23,Bike World,Mountain,364
+24,Eastside Department Store,Road,376
+25,Coalition Bike Company,Mountain,317
+26,Stylish Department Stores,Road,409
+27,Sports Sales and Rental,Mountain,568
+28,Commuter Bicycle Store,Touring,95
+29,Cross-Country Riding Supplies,Mountain,77
+30,Cycle Merchants,Road,110
+31,Wheels Inc.,Road,201
+32,Precision Gears Inc.,Road,177
+33,Global Sports Outlet,Mountain,6
+34,Cycles Wholesaler & Mfg.,Touring,272
+35,Economic Parts Supply,Road,555
+36,Exotic Bikes,Road,447
+37,Two Bike Shops,Road,633
+38,Finer Mart,Touring,491
+39,Fitness Hotel,Road,477
+40,Journey Sporting Goods,Mountain,587
+41,Distant Inn,Road,340
+42,Healthy Activity Store,Mountain,345
+43,Frugal Bike Shop,Mountain,599
+44,Games and Sport Supply Company,Touring,282
+45,Every Bike Shop,Road,565
+46,Gear-Shift Bikes Limited,Road,41
+47,Greater Bike Store,Mountain,95
+48,Grand Industries,Touring,106
+49,Neighborhood Bicycle Storehouse,Touring,188
+50,Hometown Riding Supplies,Mountain,114
+51,Ideal Components,Touring,28
+52,Instruments and Parts Company,Touring,239
+53,Incomparable Bicycle Store,Touring,454
+54,Larger Cycle Shop,Road,520
+55,Kickstands and Accessories Company,Touring,544
+56,Latest Accessories Sales,Road,547
+57,Leading Sales & Repair,Road,439
+58,Largest Bike Store,Road,432
+59,Locks Company,Touring,380
+60,Main Bicycle Services,Road,328
+61,Many Bikes Store,Mountain,323
+62,Manufacturers Inc,Road,569
+63,Metro Bike Mart,Mountain,495
+64,Metal Clearing House,Touring,95
+65,Metro Manufacturing,Mountain,99
+66,Neighborhood Store,Road,48
+67,Self-Contained Cycle Parts Company,Road,213
+68,North Bike Company,Road,148
+69,Online Bike Catalog,Touring,6
+70,Outdoor Aerobic Systems Company,Road,244
+71,Outdoor Distributors,Mountain,394
+72,Outdoor Equipment Store,Road,502
+73,Outdoor Sports Supply,Mountain,630
+74,Parcel Express Delivery Service,Road,547
+75,Paint Supply,Mountain,580
+76,Out-of-the-Way Hotels,Mountain,440
+77,Mechanical Products Ltd.,Road,359
+78,Preferred Bikes,Road,349
+79,Reasonable Bicycle Sales,Road,388
+80,Racks and Security Systems,Touring,413
+81,Rally Day Mall,Road,409
+82,Refined Department Stores,Road,68
+83,Requisite Part Supply,Road,88
+84,Rewarding Activities Company,Road,78
+85,Roadway Bicycle Supply,Touring,216
+86,Bicycle Exporters,Touring,144
+87,Rich Department Store,Touring,5
+88,Closest Bicycle Store,Mountain,260
+89,Riverside Company,Road,533
+90,Sales and Supply Company,Road,602
+91,Scooters and Bikes Store,Road,536
+92,Sports Commodities,Mountain,647
+93,Stationary Bikes and Stands,Road,590
+94,Specialty Sports Store,Mountain,579
+95,Rural Department Store,Touring,353
+96,More Bikes!,Road,367
+97,Mountain Bike Center,Road,344
+98,Superlative Bikes,Mountain,409
+99,Unified Sports Company,Mountain,412
+100,Up-To-Date Sports,Mountain,81
+101,Urban Sports Emporium,Road,96
+102,National Manufacturing,Road,96
+103,The Bike Outlet,Touring,222
+104,Very Best Sports Supply,Road,130
+105,Volume Bike Sellers,Mountain,1
+106,West Side Mart,Touring,275
+107,Wholesale Bikes,Road,455
+108,Wheelsets Storehouse,Road,459
+109,Travel Sports,Mountain,618
+110,Vintage Sport Boutique,Touring,428
+111,Westside Cycle Store,Road,433
+112,Town Industries,Touring,578
+113,Trendy Department Stores,Touring,321
+114,Two Wheels Cycle Store,Road,360
+115,Security Racks and Locks Wholesalers,Mountain,512
+116,Retirement Activities Association,Road,416
+117,Pedals Warehouse,Road,427
+118,Rapid Bikes,Mountain,96
+119,Red Bicycle Company,Mountain,109
+120,Machines & Cycles Store,Touring,105
+121,Metro Sports Equipment,Mountain,182
+122,Off-Price Bike Center,Touring,125
+123,First Supplies,Touring,11
+124,Nearby Sporting Goods,Road,270
+125,Immediate Repair Shop,Mountain,398
+126,Famous Bike Sales and Service,Road,517
+127,Front Sporting Goods,Mountain,634
+128,Demand Distributors,Road,646
+129,Discount Bicycle Specialists,Road,440
+130,Elite Bikes,Road,578
+131,Eighth Bike Store,Touring,317
+132,Another Sporting Goods Company,Road,392
+133,Commercial Sporting Goods,Mountain,341
+134,Budget Bike Company,Road,568
+135,Wonderful Bikes Inc.,Road,567
+136,Wholesale Parts,Road,41
+137,Transportation Options,Mountain,41
+138,South Bike Company,Touring,68
+139,Steel Inc.,Road,215
+140,Teen Discount Store,Mountain,143
+141,Rental Gallery,Mountain,6
+142,Riding Cycles,Road,268
+143,Modern Bike Store,Road,393
+144,Only Bikes and Accessories,Mountain,522
+145,Raw Materials Inc,Mountain,634
+146,Latest Sports Equipment,Mountain,637
+147,Local Hardware Factory,Road,432
+148,Lots of Bikes Storehouse,Mountain,431
+149,Initial Bike Company,Mountain,392
+150,Fleet Bikes,Mountain,373
+151,Futuristic Bikes,Mountain,313
+152,Distance Bikes,Road,420
+153,Widget Bicycle Specialists,Road,403
+154,Camping and Sports Store,Touring,68
+155,Corner Bicycle Supply,Road,96
+156,Metal Processing Company,Road,106
+157,Ace Bicycle Supply,Mountain,204
+158,Rural Sporting Goods,Road,154
+159,Uncompromising Quality Co,Touring,11
+160,Vigorous Sports Store,Road,264
+161,Weekend Tours,Road,442
+162,Tire Company,Road,554
+163,Sports Merchandise,Touring,541
+164,Suburban Cycle Shop,Mountain,551
+165,Third Bike Store,Road,578
+166,Fitness Toy Store,Road,580
+167,Farthermost Bike Shop,Road,305
+168,Economy Bikes Company,Mountain,297
+169,Downtown Hotel,Mountain,508
+170,Excellent Riding Supplies,Road,567
+171,Eighty Toy Stores,Road,425
+172,Certified Sports Supply,Mountain,61
+173,Sundry Sporting Goods,Road,68
+174,Toy Manufacturing Inc,Road,67
+175,Registered Cycle Store,Mountain,183
+176,Rodeway Bike Store,Mountain,170
+177,Plastic Products Manufacturers,Touring,24
+178,Rampart Amusement Company,Touring,270
+179,Fourth Bike Store,Touring,531
+180,Full-Service Bike Store,Mountain,467
+181,Family Entertainment Center,Touring,538
+182,Another Bicycle Company,Touring,545
+183,This Area Sporting Goods,Mountain,432
+184,Go-cart and Bike Specialists,Mountain,574
+185,Weekend Bike Tours,Road,362
+186,Thrilling Bike Tours,Touring,507
+187,Trailblazing Sports,Mountain,306
+188,Variety Bike Outlet,Mountain,409
+189,Principal Bicycle Supply,Road,283
+190,Racing Partners,Mountain,41
+191,Non-Slip Pedal Company,Road,96
+192,Nuts and Bolts Mfg.,Mountain,96
+193,Perfect Toys,Touring,180
+194,Mechanical Brake Manufacturers,Touring,150
+195,Inexpensive Parts Shop,Mountain,12
+196,Exhibition Showroom,Mountain,260
+197,"Fabrikam Inc., West",Mountain,466
+198,Field Trip Inc,Road,471
+199,Authorized Bike Sales and Rental,Touring,635
+200,Basic Bike Company,Road,632
+201,Unsurpassed Bikes,Touring,578
+202,Two-Seater Bikes,Touring,589
+203,Separate Parts Corporation,Road,342
+204,Traction Tire Company,Mountain,374
+205,Rally Master Company Inc,Touring,285
+206,New and Used Bicycles,Road,500
+207,Lubricant and Grease Suppliers,Mountain,498
+208,Professional Cyclists,Road,96
+209,Purple Bicycle Company,Road,92
+210,Gasless Cycle Shop,Road,94
+211,Sports Products Store,Road,205
+212,Enterprise Center,Touring,134
+213,Fast Bike Works,Touring,38
+214,Exclusive Bicycle Mart,Road,242
+215,Eleventh Bike Store,Road,400
+216,Painters Bicycle Specialists,Road,399
+217,City Manufacturing,Mountain,640
+218,Sure & Reliable Sporting Goods,Road,625
+219,Extras Sporting Goods,Road,432
+220,Best o' Bikes,Touring,487
+221,Bike Dealers Association,Road,505
+222,Sample Bike Store,Road,386
+223,Paints and Solvents Company,Touring,387
+224,Pedal Systems Company,Road,281
+225,Optimal Bikes,Road,448
+226,Leisure Activities,Mountain,103
+227,"Health Spa, Limited",Road,94
+228,Home Town Bike Store,Touring,87
+229,Instant Cycle Store,Road,215
+230,Global Bike Retailers,Touring,122
+231,Helmets and Cycles,Touring,6
+232,Exceptional Cycle Services,Touring,228
+233,Fashionable Department Stores,Mountain,521
+234,Eastside Sporting Goods,Road,443
+235,Certified Bicycle Supply,Road,626
+236,Closeout Boutique,Mountain,637
+237,Client Discount Store,Mountain,432
+238,A Great Bicycle Company,Road,483
+239,Bicycle Merchandise Warehouse,Road,369
+240,Wire Baskets and Parts,Road,350
+241,Vale Riding Supplies,Touring,304
+242,Spoke Manufacturers,Road,409
+243,Recreation Supplies,Mountain,406
+244,Retail Discount Store,Road,107
+245,Leather Seat Factory,Mountain,101
+246,Large Bike Shop,Mountain,106
+247,Major Amusement Company,Mountain,225
+248,Good Bicycle Store,Road,178
+249,Helpful Sales and Repair Service,Touring,37
+250,Express Bike Services,Mountain,250
+251,Endurance Bikes,Road,395
+252,Classic Cycle Store,Mountain,396
+253,Roving Sports,Road,633
+254,Safe Cycles Shop,Mountain,608
+255,Swift Cycles,Road,582
+256,Rental Bikes,Road,578
+257,Number 1 Supply,Road,319
+258,Quantity Discounts,Road,356
+259,Highway Bike Shop,Road,371
+260,Industrial Supplies,Touring,409
+261,Functional Store North,Mountain,401
+262,General Industries,Road,41
+263,Farthest Bike Store,Touring,46
+264,Fasteners & Bolts Outlet,Touring,94
+265,Full Sports Supply,Mountain,202
+266,Excellent Bikes,Touring,119
+267,Cycle Parts and Accessories,Touring,35
+268,Channel Outlet,Touring,240
+269,Curbside Universe,Road,527
+270,Active Transport Inc.,Road,532
+271,Alternative Vehicles,Road,645
+272,Metro Cycle Shop,Mountain,642
+273,A Typical Bike Shop,Road,590
+274,Active Systems,Road,476
+275,Outdoor Sporting Goods,Touring,334
+276,Thrifty Parts and Sales,Road,351
+277,The Bicycle Accessories Company,Road,292
+278,Tread Industries,Mountain,411
+279,Reliable Brake Systems,Mountain,567
+280,Standard Bikes,Mountain,75
+281,Petroleum Products Distributors,Touring,106
+282,Quick Parts and Service,Touring,111
+283,Racing Supply Distributors,Touring,206
+284,Nearby Bike Mall,Road,153
+285,Nearest Bike Store,Touring,11
+286,Number One Bike Co.,Road,266
+287,Handy Bike Services,Mountain,463
+288,Kickstand Sellers,Mountain,473
+289,Moderately-Priced Bikes Store,Mountain,635
+290,Friendly Bike Shop,Road,609
+291,Grand Bicycle Stores,Mountain,573
+292,Grease and Oil Products Company,Road,582
+293,Fashionable Bikes and Accessories,Mountain,597
+294,Flawless Bike Shop,Road,381
+295,Engineered Bike Systems,Touring,351
+296,Extreme Toy Store,Mountain,280
+297,Blue-Ribbon Bike Company,Touring,451
+298,City Cycling,Road,72
+299,Citywide Service and Repair,Road,73
+300,Nice Bikes,Road,90
+301,Rural Mountain Bike Mart,Road,204
+302,Best Cycle Store,Touring,172
+303,Seaside Bike Works,Touring,12
+304,Essential Bike Works,Road,227
+305,Professional Sporting Goods,Touring,445
+306,Work and Play Association,Road,472
+307,Riding Associates,Mountain,633
+308,Rugged Bikes,Touring,616
+309,The Gear Store,Mountain,582
+310,Orange Bicycle Company,Road,437
+311,Principal Bike Company,Road,377
+312,Resale Services,Mountain,313
+313,Metropolitan Manufacturing,Road,316
+314,One-Piece Handle Bars,Mountain,490
+315,Juvenile Sports Equipment,Mountain,408
+316,Low Price Cycles,Mountain,83
+317,Finer Riding Supplies,Road,45
+318,First-Rate Outlet,Road,69
+319,Cycles Sales and Repair,Touring,220
+320,Amalgamated Parts Shop,Touring,145
+321,Second Bike Shop,Road,8
+322,Tachometers and Accessories,Mountain,259
+323,Metro Bike Works,Mountain,460
+324,A Bicycle Association,Touring,516
+325,All Cycle Shop,Mountain,610
+326,Year-Round Sports,Mountain,622
+327,World of Bikes,Mountain,487
+328,Totes & Baskets Company,Road,591
+329,"Unicycles, Bicycles, and Tricycles",Touring,315
+330,The New Bike Store,Road,327
+331,Technical Parts Manufacturing,Touring,349
+332,Topnotch Bikes,Mountain,284
+333,Resident Cycle Shop,Mountain,563
+334,Retreat Inn,Road,98
+335,Scratch-Resistant Finishes Company,Mountain,82
+336,Primary Bike Distributors,Road,107
+337,Recreation Toy Store,Mountain,217
+338,Rambling Tours,Touring,177
+339,Major Bicycle Store,Touring,8
+340,Nearby Cycle Shop,Mountain,274
+341,Independent Outlet,Road,515
+342,Leather and Vinyl Manufacturing,Road,443
+343,Mail-Order Outlet,Road,615
+344,Fifth Bike Store,Road,616
+345,Genial Bike Associates,Mountain,583
+346,Great Bicycle Supply,Mountain,435
+347,Bike Universe,Mountain,378
+348,Bold Bike Accessories,Mountain,390
+349,Exercise Center,Mountain,362
+350,Mountain Emporium,Mountain,569
+351,Acclaimed Bicycle Company,Touring,425
+352,Twelfth Bike Store,Mountain,42
+353,Two-Wheeled Transit Company,Mountain,72
+354,Serious Cycles,Mountain,41
+355,Spare Parts Co.,Mountain,193
+356,Speedometer Sales,Road,132
+357,Quality Bike Sales,Touring,29
+358,Mail Market,Touring,277
+359,Mechanical Sports Center,Road,525
+360,Novelty Bikes,Touring,470
+361,Fitness Supplies,Touring,639
+362,Grand Cycle Store,Road,641
+363,Immense Manufacturing Company,Touring,486
+364,District Mall,Road,482
+365,Distinctive Store,Road,296
+366,Extended Bike Sales,Mountain,309
+367,Brown Bicycle Company,Road,359
+368,Elemental Sporting Goods,Mountain,422
+369,Distinctive Cycles Sales & Service,Mountain,449
+370,Acceptable Sales & Service,Road,41
+371,Custom Sales and Service,Road,67
+372,Top Bike Market,Touring,80
+373,Township Inn,Road,211
+374,Major Equipment Co,Touring,135
+375,Region Bike Company,Road,22
+376,Commerce Bicycle Specialists,Mountain,230
+377,Grand Sport Boutique,Road,470
+378,Grown-up Bike Store,Mountain,534
+379,Fad Outlet,Road,547
+380,First Department Stores,Mountain,654
+381,Bicycle Lines Distributors,Mountain,487
+382,Beneficial Exercises and Activities,Road,591
+383,Vehicle Shop,Road,354
+384,Sparkling Paint and Finishes,Mountain,365
+385,Sturdy Toys,Mountain,324
+386,Touring Services,Road,559
+387,Racing Association,Road,282
+388,Road Way Sales and Rental,Mountain,68
+389,Sixth Bike Store,Mountain,67
+390,Plastic Parts Company,Mountain,98
+391,Pretty Bikes and Toys,Road,194
+392,Primary Cycle Shop,Road,147
+393,Gears and Parts Company,Touring,9
+394,Little Sports Center,Touring,278
+395,Online Bike Sellers,Mountain,464
+396,Executive Gift Store,Mountain,446
+397,Capable Sales and Service,Mountain,637
+398,Commendable Bikes,Road,430
+399,Big Cycle Mall,Touring,585
+400,Local Sales and Rental,Touring,434
+401,Brightwork Company,Mountain,509
+402,Pro Sporting Goods,Mountain,303
+403,Affordable Sports Equipment,Road,333
+404,Activity Center,Road,562
+405,Sporting Goods and Bicycle Shop,Road,564
+406,The Commissary,Road,108
+407,Workout Emporium,Touring,106
+408,Odometers and Accessories Company,Touring,61
+409,Outdoor Toy Store,Mountain,181
+410,Pedaling Components,Touring,168
+411,Kids and Adults Cycle Shop,Mountain,12
+412,Leisure Clearing House,Road,232
+413,Margie's Travel,Mountain,513
+414,Grand Discount Store,Mountain,441
+415,Imaginary Toys,Touring,641
+416,Impromptu Trips,Mountain,643
+417,Genuine Bike Shop,Road,591
+418,Good Bike Shop,Road,652
+419,Exertion Activities Club,Touring,346
+420,Extreme Riding Supplies,Touring,370
+421,Fitness Cycling,Mountain,384
+422,Consolidated Sales,Mountain,558
+423,Bike Rims Company,Road,488
+424,Bikes for Two,Mountain,91
+425,Bikes for Kids and Adults,Mountain,78
+426,Custom Accessories Company,Road,76
+427,Atypical Bike Company,Road,199
+428,West Wind Distributors,Touring,157
+429,Unusual Bicycle Company,Touring,15
+430,Uttermost Bike Shop,Road,233
+431,Small Cycle Store,Road,461
+432,Super Sports Store,Road,443
+433,Thorough Parts and Repair Services,Road,624
+434,Road-Way Mart,Mountain,493
+435,Satin Finish Company,Mountain,577
+436,Sheet Metal Manufacturing,Road,576
+437,Professional Cycle Store,Mountain,288
+438,Remarkable Bike Store,Road,509
+439,Regional Manufacturing,Mountain,291
+440,Hobby Store,Mountain,411
+441,Leading Bike Distributors,Road,452
+442,Original Bicycle Supply Company,Mountain,94
+443,Courteous Bicycle Specialists,Touring,91
+444,Finer Cycle Shop,Mountain,41
+445,First Center,Mountain,222
+446,Fitness Toys,Touring,141
+447,Cross-town Parts Shop,Road,16
+448,Action Bicycle Specialists,Touring,276
+449,Bike Products and Accessories,Mountain,606
+450,Bikes Anyone?,Touring,456
+451,Roadway Bike Emporium,Touring,544
+452,A Cycle Shop,Touring,535
+453,Unique Bikes,Mountain,650
+454,Sleek Bikes,Touring,560
+455,Timely Shipping Service,Mountain,293
+456,Riding Excursions,Road,330
+457,Retail Sporting Equipment,Mountain,287
+458,Simple Bike Parts,Road,404
+459,Parts Shop,Road,423
+460,Price-Cutter Discount Bikes,Road,100
+461,Active Life Toys,Road,84
+462,General Riding Supplies,Mountain,61
+463,Brand New Bikes,Road,211
+464,Educational Services,Touring,174
+465,Expert Cycle Store,Touring,17
+466,Central Bicycle Specialists,Touring,258
+467,The Cycle Store,Mountain,603
+468,Blue Bicycle Company,Road,465
+469,Vast Bike Sales and Rental,Mountain,613
+470,Wingtip Toys,Mountain,621
+471,Social Activities Club,Road,591
+472,Summer Sports Place,Mountain,436
+473,Racing Toys,Road,288
+474,Retail Cycle Shop,Mountain,320
+475,Real Sporting Goods,Mountain,288
+476,Noiseless Gear Company,Mountain,421
+477,Quitting Business Distributors,Touring,414
+478,Major Cycling,Road,61
+479,General Supplies,Road,113
+480,General Bike Corporation,Road,84
+481,Getaway Inn,Road,182
+482,"Fabrikam Inc., East",Road,115
+483,Fitness Bike Accessories,Touring,14
+484,Downhill Bicycle Specialists,Mountain,229
+485,Clamps & Brackets Co.,Mountain,604
+486,Convenient Bike Shop,Road,453
+487,Bike Experts,Mountain,548
+488,Bicycle Accessories and Kits,Mountain,429
+489,Cash & Carry Bikes,Mountain,575
+490,Extraordinary Bike Works,Mountain,588
+491,Area Bike Accessories,Road,341
+492,Basic Sports Equipment,Mountain,295
+493,Valley Bicycle Distributors,Road,308
+494,Worthwhile Activity Store,Mountain,409
+495,Tough and Reliable Parts,Road,407
+496,Top Sports Supply,Mountain,42
+497,Valley Toy Store,Mountain,61
+498,Quick Delivery Service,Mountain,84
+499,Racing Sales and Service,Road,183
+500,Irregulars Outlet,Mountain,128
+501,Jumbo Bikes,Touring,7
+502,Metropolitan Bicycle Supply,Mountain,254
+503,Metropolitan Sales and Rental,Road,501
+504,Historic Bicycle Sales,Mountain,469
+505,Honest Repair Service,Touring,619
+506,Great Bikes,Mountain,653
+507,Global Sporting Goods,Road,592
+508,Designer Department Stores,Road,581
+509,Fun Toys and Bikes,Touring,291
+510,World Bike Discount Store,Road,375
+511,Wheel Gallery,Road,363
+512,Tiny Bike Boutique,Road,569
+513,Village Tours,Mountain,450
+514,Retail Mall,Road,61
+515,Rural Bicycle Supply,Mountain,86
+516,Seats and Saddles Company,Mountain,80
+517,Racing Store,Road,211
+518,Regional Cycle Shop,Road,125
+519,List Price Catalog Company,Touring,35
+520,Metro Metals Co.,Touring,253
+521,Mobile Outlet,Road,556
+522,Small Bike Accessories Shop,Touring,514
+523,Futuristic Sport Distributors,Road,389
+524,Chain and Chain Tool Distributions,Road,499
+525,Cycles and Scooters,Road,419
+526,Finer Sales and Service,Road,88
+527,Fun Times Club,Road,391
+528,Alpine Ski House,Road,318
+529,Big-Time Bike Store,Road,303
+530,Valuable Bike Parts Company,Mountain,411
+531,Sunny Place Bikes,Road,415
+532,The Showroom,Road,79
+533,Tenth Bike Store,Road,112
+534,Recommended Bicycles,Road,84
+535,Spa and Exercise Outfitters,Mountain,226
+536,Next Door Cycles,Touring,165
+537,Preferable Bikes,Touring,14
+538,Prosperous Tours,Road,245
+539,Glossy Bikes,Touring,519
+540,Guaranteed Sales and Service,Road,524
+541,Nonskid Tire Company,Mountain,492
+542,Finer Parts Shop,Mountain,623
+543,Friendly Neighborhood Bikes,Mountain,649
+544,Valley Bicycle Specialists,Mountain,484
+545,Finish and Sealant Products,Road,357
+546,Field Trip Store,Mountain,390
+547,Curbside Sporting Goods,Road,382
+548,New Bikes Company,Road,557
+549,Daring Rides,Road,403
+550,Remote Bicycle Specialists,Road,110
+551,Vinyl and Plastic Goods Corporation,Mountain,94
+552,Consolidated Messenger,Road,94
+553,Accessories Network,Touring,197
+554,Top of the Line Bikes,Touring,151
+555,Twin Cycles,Touring,3
+556,Variety Cycling,Touring,256
+557,Purchase Mart,Touring,457
+558,Retail Sales and Service,Road,504
+559,Some Discount Store,Mountain,654
+560,Major Sport Suppliers,Mountain,655
+561,Mountain Toy Store,Road,593
+562,Practical Bike Supply Company,Mountain,480
+563,Systematic Sales,Touring,286
+564,Imported and Domestic Cycles,Road,510
+565,Metallic Paint and Overcoat Co,Road,381
+566,eCommerce Bikes,Mountain,489
+567,Global Plaza,Mountain,570
+568,Economy Center,Mountain,94
+569,Designated Distributors,Road,85
+570,Family's Favorite Bike Shop,Mountain,105
+571,Community Department Stores,Mountain,191
+572,Versatile Sporting Goods Company,Road,156
+573,Nationwide Supply,Touring,14
+574,Area Sheet Metal Supply,Road,246
+575,Bicycle Outfitters,Road,525
+576,The Bike Mechanics,Mountain,530
+577,Synthetic Materials Manufacturing,Road,642
+578,The Bike Shop,Mountain,633
+579,Riders Company,Road,475
+580,Rural Sales and Service,Road,591
+581,Safe Toys,Mountain,506
+582,Professional Sales and Service,Touring,379
+583,Professional Containers and Packaging Co.,Mountain,290
+584,Qualified Sales and Repair Services,Road,426
+585,Next-Door Bike Store,Mountain,567
+586,One Bike Company,Mountain,106
+587,Our Sporting Goods Store,Road,89
+588,General Cycle Storehouse,Mountain,47
+589,Hiatus Bike Tours,Touring,198
+590,Lustrous Paints and Components,Road,173
+591,Fitness Discount Store,Touring,35
+592,Cycling Goods,Road,251
+593,Expert Sports Store,Mountain,529
+594,Casual Bicycle Store,Mountain,502
+595,Cycle Clearance,Touring,535
+596,Coho Sports,Mountain,616
+597,All Seasons Sports Supply,Touring,582
+598,Black Bicycle Company,Mountain,481
+599,Westside Plaza,Touring,366
+600,Strenuous Exercise Shop,Mountain,346
+601,Transport Bikes,Touring,600
+602,Ultimate Bike Shop,Mountain,566
+603,Retail Toy Store,Road,409
+604,Sellers of Cycles,Road,537
+605,Outstanding Cycles,Touring,641
+606,Little Bicycle Supply Shop,Road,651
+607,Maintenance and Repair for Bicycles,Touring,586
+608,Golf and Cycle Store,Mountain,332
+609,Good Toys,Road,294
+610,Fitness Department Stores,Touring,289
+611,Front Runner Bikes,Touring,402
+612,General Associates,Road,405
+613,Famous Bike Shop,Mountain,97
+614,Favorite Toy Distributor,Touring,203
+615,Fast Services,Road,158
+616,Eastward Bike Accessories,Touring,8
+617,Tubeless Tire Company,Touring,263
+618,Seventh Bike Store,Road,503
+619,Strong Metal Manufacturing,Road,518
+620,Tires and Tubes,Mountain,654
+621,Running and Cycling Gear,Touring,609
+622,Gift and Toy Store,Road,438
+623,Hardware Components,Mountain,479
+624,First Cycle Store,Road,289
+625,Major Sporting Goods,Road,285
+626,Retail Sporting Goods,Road,509
+627,Exchange Parts Inc.,Touring,497
+628,Executive Discount Store,Road,409
+629,Efficient Cycling,Touring,41
+630,Eastside Parts Shop,Touring,93
+631,Tandem Sales and Service,Road,93
+632,Ultimate Bicycle Company,Mountain,212
+633,Rustic Bike Store,Touring,116
+634,Sensible Sports,Touring,14
+635,Sports Store,Mountain,235
+636,Recreation Systems,Road,444
+637,Reliable Retail Center,Road,93
+638,Metropolitan Equipment,Road,200
+639,Producer Goods Clearinghouse,Road,118
+640,Liquidation Sales,Touring,30
+641,Extended Tours,Road,252
+642,Fitness Sport Boutique,Mountain,459
+643,Friendly Bike Shop,Road,468
+644,Convenient Sales and Service,Road,549
+645,Superior Hardware Distributors,Mountain,536
+646,Yellow Bicycle Company,Mountain,487
+647,Solid Bike Parts,Road,571
+648,Small Bike Shop,Mountain,317
+649,Sports Products Store,Road,367
+650,Permanent Finish Products,Mountain,511
+651,Retread Tire Company,Road,417
+652,Selected Distributors,Mountain,424
+653,Mercantile Outlet,Mountain,93
+654,Online Bike Warehouse,Road,74
+655,Operational Manufacturing,Mountain,102
+656,Impervious Paint Company,Mountain,196
+657,Links Works,Mountain,136
+658,Mass Market Bikes,Touring,1
+659,Shipping Specialists,Road,248
+660,Exhilarating Cycles,Road,462
+661,General Department Stores,Mountain,41
+662,Finer Sporting Goods,Touring,185
+663,Capital Riding Supplies,Mountain,137
+664,Eastside Cycle Shop,Touring,35
+665,Authentic Sales and Service,Mountain,255
+666,Bike Boutique,Road,526
+667,Traditional Department Stores,Mountain,523
+668,Official Parts Shop,Road,619
+669,Racing Bike Outlet,Road,617
+670,First Bike Store,Road,485
+671,"Contoso, Ltd.",Road,591
+672,Utilitarian Sporting Goods,Touring,596
+673,Countryside Company,Mountain,594
+674,Discount Tours,Road,314
+675,Bike Goods,Road,410
+676,Better Bike Shop,Mountain,418
+677,Tire Exchange,Mountain,88
+678,Vigorous Exercise Company,Mountain,93
+679,Superb Sales and Repair,Road,104
+680,Racing Tours,Mountain,218
+681,Showcase for Cycles,Road,178
+682,Popular Bike Lines,Touring,10
+683,Oils and Fluids Warehouse,Mountain,257
+684,Lease-a-Bike Shop,Road,396
+685,Family Cycle Store,Mountain,107
+686,Finished Parts Shop,Mountain,219
+687,Functional Store South,Mountain,159
+688,Bike Part Wholesalers,Touring,18
+689,Consumer Equipment,Road,249
+690,Active Cycling,Road,528
+691,Mountain Bike Store,Touring,397
+692,Successful Sales Company,Road,550
+693,Stock Parts and Supplies,Touring,540
+694,The Accessories Store,Road,478
+695,Responsible Bike Dealers,Mountain,484
+696,Roadway Supplies,Road,598
+697,Brakes and Gears,Mountain,601
+698,Western Bike Supplies,Road,595
+699,Sensational Discount Store,Road,496
+700,Underglaze and Finish Company,Road,494
+701,Future Bikes,Road,41
