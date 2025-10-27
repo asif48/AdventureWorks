@@ -1,0 +1,217 @@
+
+
+
+
+
+------------------------------------------------------------------------------------------------
+
+-- View: adventureworksdw2022.get_ind_count_v
+
+-- DROP VIEW adventureworksdw2022.get_ind_count_v;
+
+CREATE OR REPLACE VIEW adventureworksdw2022.get_ind_count_v
+ AS
+ SELECT count(DISTINCT c.customerkey) AS count,
+    EXTRACT(year FROM to_date(f.orderdatekey::text, 'YYYYMMDD'::text))::integer AS order_year
+   FROM adventureworksdw2022.dimcustomer c,
+    adventureworksdw2022.factinternetsales f
+  WHERE c.customerkey = f.customerkey AND f.salesamount > 0::numeric
+  GROUP BY (EXTRACT(year FROM to_date(f.orderdatekey::text, 'YYYYMMDD'::text))::integer);
+
+ALTER TABLE adventureworksdw2022.get_ind_count_v
+    OWNER TO postgres;
+
+
+
+--------------------------------------------------------------------------------------------------
+
+-- View: adventureworksdw2022.get_profit_percent
+
+-- DROP VIEW adventureworksdw2022.get_profit_percent;
+
+CREATE OR REPLACE VIEW adventureworksdw2022.get_profit_percent
+ AS
+ SELECT d.calendaryear,
+    sum(f.salesamount - f.totalproductcost) * 100.0 / sum(f.salesamount) AS individualpp,
+    sum(r.salesamount - r.totalproductcost) * 100.0 / sum(r.salesamount) AS storepp
+   FROM adventureworksdw2022.dimdate d
+     JOIN adventureworksdw2022.factinternetsales f ON f.orderdatekey = d.datekey
+     JOIN adventureworksdw2022.factresellersales r ON r.orderdatekey = d.datekey
+  GROUP BY d.calendaryear
+  ORDER BY d.calendaryear;
+
+ALTER TABLE adventureworksdw2022.get_profit_percent
+    OWNER TO postgres;
+
+-------------------------------------------------------------------------------------------------
+
+-- View: adventureworksdw2022.get_store_count_v
+
+-- DROP VIEW adventureworksdw2022.get_store_count_v;
+
+CREATE OR REPLACE VIEW adventureworksdw2022.get_store_count_v
+ AS
+ SELECT count(DISTINCT c.resellerkey) AS count,
+    EXTRACT(year FROM to_date(f.orderdatekey::text, 'YYYYMMDD'::text))::integer AS order_year
+   FROM adventureworksdw2022.dimreseller c,
+    adventureworksdw2022.factresellersales f
+  WHERE c.resellerkey = f.resellerkey AND f.salesamount > 0::numeric
+  GROUP BY (EXTRACT(year FROM to_date(f.orderdatekey::text, 'YYYYMMDD'::text))::integer);
+
+ALTER TABLE adventureworksdw2022.get_store_count_v
+    OWNER TO postgres;
+
+
+
+-------------------------------------------------------------------------------------------------
+
+
+-- View: adventureworksdw2022.get_total_customer_v
+
+-- DROP VIEW adventureworksdw2022.get_total_customer_v;
+
+CREATE OR REPLACE VIEW adventureworksdw2022.get_total_customer_v
+ AS
+ SELECT d.calendaryear,
+    count(DISTINCT f.customerkey) AS internetcustomercount,
+    count(DISTINCT r.resellerkey) AS resellercustomercount,
+    count(DISTINCT f.customerkey) + count(DISTINCT r.resellerkey) AS totalcustomercount
+   FROM adventureworksdw2022.dimdate d
+     LEFT JOIN adventureworksdw2022.factinternetsales f ON d.datekey = f.orderdatekey
+     LEFT JOIN adventureworksdw2022.factresellersales r ON d.datekey = r.orderdatekey
+  GROUP BY d.calendaryear
+  ORDER BY d.calendaryear;
+
+ALTER TABLE adventureworksdw2022.get_total_customer_v
+    OWNER TO postgres;
+
+--------------------------------------------------------------------------------------------------
+
+
+-- View: adventureworksdw2022.get_total_sales_v
+
+-- DROP VIEW adventureworksdw2022.get_total_sales_v;
+
+CREATE OR REPLACE VIEW adventureworksdw2022.get_total_sales_v
+ AS
+ SELECT d.calendaryear,
+    sum(f.salesamount) AS internetcustomeramount,
+    sum(r.salesamount) AS resellercustomercount,
+    sum(f.salesamount) + sum(r.salesamount) AS totalcustomercounamountt
+   FROM adventureworksdw2022.dimdate d
+     LEFT JOIN adventureworksdw2022.factinternetsales f ON d.datekey = f.orderdatekey
+     LEFT JOIN adventureworksdw2022.factresellersales r ON d.datekey = r.orderdatekey
+  GROUP BY d.calendaryear
+  ORDER BY d.calendaryear;
+
+ALTER TABLE adventureworksdw2022.get_total_sales_v
+    OWNER TO postgres;
+
+
+
+--------------------------------------------------------------------------------------------------
+
+-- View: adventureworksdw2022.get_total_tax_v
+
+-- DROP VIEW adventureworksdw2022.get_total_tax_v;
+
+CREATE OR REPLACE VIEW adventureworksdw2022.get_total_tax_v
+ AS
+ SELECT d.calendaryear,
+    sum(f.taxamt) AS internetcustomertax,
+    sum(r.taxamt) AS resellercustomertax,
+    sum(f.taxamt) + sum(r.taxamt) AS totalcustomertax
+   FROM adventureworksdw2022.dimdate d
+     LEFT JOIN adventureworksdw2022.factinternetsales f ON d.datekey = f.orderdatekey
+     LEFT JOIN adventureworksdw2022.factresellersales r ON d.datekey = r.orderdatekey
+  GROUP BY d.calendaryear
+  ORDER BY d.calendaryear;
+
+ALTER TABLE adventureworksdw2022.get_total_tax_v
+    OWNER TO postgres;
+--------------------------------------------------------------------------------------------------
+
+-- View: adventureworksdw2022.monthly_trend_individual_v
+
+-- DROP VIEW adventureworksdw2022.monthly_trend_individual_v;
+
+CREATE OR REPLACE VIEW adventureworksdw2022.monthly_trend_individual_v
+ AS
+ SELECT sum(f.orderquantity) AS order_quantity,
+    sum(f.salesamount) AS sum,
+    EXTRACT(month FROM to_date(f.orderdatekey::text, 'YYYYMMDD'::text))::integer AS order_month,
+    EXTRACT(year FROM to_date(f.orderdatekey::text, 'YYYYMMDD'::text))::integer AS order_year
+   FROM adventureworksdw2022.dimcustomer c,
+    adventureworksdw2022.factinternetsales f
+  WHERE c.customerkey = f.customerkey
+  GROUP BY (EXTRACT(month FROM to_date(f.orderdatekey::text, 'YYYYMMDD'::text))::integer), (EXTRACT(year FROM to_date(f.orderdatekey::text, 'YYYYMMDD'::text))::integer)
+  ORDER BY (EXTRACT(year FROM to_date(f.orderdatekey::text, 'YYYYMMDD'::text))::integer), (EXTRACT(month FROM to_date(f.orderdatekey::text, 'YYYYMMDD'::text))::integer);
+
+ALTER TABLE adventureworksdw2022.monthly_trend_individual_v
+    OWNER TO postgres;
+
+
+
+
+--------------------------------------------------------------------------------------------------
+
+-- View: adventureworksdw2022.monthly_trend_store_v
+
+-- DROP VIEW adventureworksdw2022.monthly_trend_store_v;
+
+CREATE OR REPLACE VIEW adventureworksdw2022.monthly_trend_store_v
+ AS
+ SELECT sum(f.orderquantity) AS order_quantity,
+    sum(f.salesamount) AS sum,
+    EXTRACT(month FROM to_date(f.orderdatekey::text, 'YYYYMMDD'::text))::integer AS order_month,
+    EXTRACT(year FROM to_date(f.orderdatekey::text, 'YYYYMMDD'::text))::integer AS order_year
+   FROM adventureworksdw2022.dimreseller c,
+    adventureworksdw2022.factresellersales f
+  WHERE c.resellerkey = f.resellerkey
+  GROUP BY (EXTRACT(month FROM to_date(f.orderdatekey::text, 'YYYYMMDD'::text))::integer), (EXTRACT(year FROM to_date(f.orderdatekey::text, 'YYYYMMDD'::text))::integer)
+  ORDER BY (EXTRACT(year FROM to_date(f.orderdatekey::text, 'YYYYMMDD'::text))::integer), (EXTRACT(month FROM to_date(f.orderdatekey::text, 'YYYYMMDD'::text))::integer);
+
+ALTER TABLE adventureworksdw2022.monthly_trend_store_v
+    OWNER TO postgres;
+
+---------------------------------------------------------------------------------------------------
+
+-- View: adventureworksdw2022.top_individual_customers_v
+
+-- DROP VIEW adventureworksdw2022.top_individual_customers_v;
+
+CREATE OR REPLACE VIEW adventureworksdw2022.top_individual_customers_v
+ AS
+ SELECT c.firstname,
+    sum(f.salesamount) AS sum,
+    EXTRACT(year FROM to_date(f.orderdatekey::text, 'YYYYMMDD'::text))::integer AS order_year
+   FROM adventureworksdw2022.dimcustomer c,
+    adventureworksdw2022.factinternetsales f
+  WHERE c.customerkey = f.customerkey
+  GROUP BY c.firstname, (EXTRACT(year FROM to_date(f.orderdatekey::text, 'YYYYMMDD'::text))::integer);
+
+ALTER TABLE adventureworksdw2022.top_individual_customers_v
+    OWNER TO postgres;
+
+
+
+
+---------------------------------------------------------------------------------------------------
+
+-- View: adventureworksdw2022.top_store_customers_v
+
+-- DROP VIEW adventureworksdw2022.top_store_customers_v;
+
+CREATE OR REPLACE VIEW adventureworksdw2022.top_store_customers_v
+ AS
+ SELECT c.resellername,
+    sum(f.salesamount) AS sum,
+    EXTRACT(year FROM to_date(f.orderdatekey::text, 'YYYYMMDD'::text))::integer AS order_year
+   FROM adventureworksdw2022.dimreseller c,
+    adventureworksdw2022.factresellersales f
+  WHERE c.resellerkey = f.resellerkey
+  GROUP BY c.resellername, (EXTRACT(year FROM to_date(f.orderdatekey::text, 'YYYYMMDD'::text))::integer);
+
+ALTER TABLE adventureworksdw2022.top_store_customers_v
+    OWNER TO postgres;
+
