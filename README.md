@@ -5,8 +5,7 @@ Excited to share my recent Data Engineer project as part of my journey from Soft
 
 I analyzed the Adventure Works dataset to compare Internet Customers vs Store Customers. The Data is presented in the Excel format, I remove Data Discrepencies via Python. Placed the clean code on **S3** and then copy the code in **AWS Redhshift** for quering and mining the untold data stories. 
 
-**Data Pipeline**
-I created **Data Pipeline** for the new data, as the new data entered in the excel file the code clean the faulty data and then using the "Upsert" statement the new data merges into the AWS Redhsift. Finally the data is displayed on the Dashboard. The brief descriptiob of the tolls are described as below: 
+**Data Pipeline** is one of the smart feature of the project. As the new data entered in the excel file the code clean the faulty data and then using the "Upsert" statement the new data merges into the AWS Redhsift. Finally the data is displayed on the Dashboard. The brief description of the tools are described as below: 
     
 🐍 Python for data cleaning
 ☁️ AWS S3 & Redshift for storage and querying
